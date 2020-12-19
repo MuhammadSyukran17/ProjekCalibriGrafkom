@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\include\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="crate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\lantai.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\dinding1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\tvvv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\ASUS\Downloads\lemari1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="raks.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\ASUS\Downloads\meja.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\ASUS\Downloads\meja1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\ASUS\Downloads\tv2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\ASUS\Downloads\tikar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragmentShader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{be86d5c5-54dc-4f3a-b256-ce5fa0f33100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7e73ad55-a3be-4f2e-ba14-34732a826e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b363f771-9397-4890-8df5-ac2d9da4cf83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
