@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lesson02.vcxproj, Lesson03.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Demo.cpp
+C:\Users\Fasya\source\repos\Grafika Komputer dan Visualisasi\vs\Lesson04\Demo.cpp(239,31): error C2084: function 'void Demo::BuildColoredCube(void)' already has a body
+C:\Users\Fasya\source\repos\Grafika Komputer dan Visualisasi\vs\Lesson04\Demo.cpp(142): message : see previous definition of 'BuildColoredCube'
+C:\Users\Fasya\source\repos\Grafika Komputer dan Visualisasi\vs\Lesson04\Demo.cpp(336,31): error C2084: function 'void Demo::BuildColoredCube(void)' already has a body
+C:\Users\Fasya\source\repos\Grafika Komputer dan Visualisasi\vs\Lesson04\Demo.cpp(239): message : see previous definition of 'BuildColoredCube'
